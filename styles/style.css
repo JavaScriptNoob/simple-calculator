@@ -1,0 +1,56 @@
+@font-face {
+        font-family: "Crazyfont";
+        src: url('1.ttf');}
+body{
+    background-image: url('images/56.jpg') ;
+    background-size: contain;
+    font-family: "Crazyfont",Helvetica, sans-serif;
+}
+div {
+    margin:400px 200px 400px 500px;
+}
+button {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #0f0369; 
+    color: #fff;
+    text-decoration: none;
+  }
+button::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #b97de1, #9757b5);
+  }
+ 
+    input{
+        display: inline-block;
+        border: none;
+        border-radius: 4px;
+        padding: .3em .2em;
+        margin: 3px;
+        text-transform: uppercase;
+        background: rgb(163, 163, 163);
+        color: white;
+        font-family: serif;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        transition: background 250ms ease-in-out, 
+                    transform 1ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    @font-face {
+        font-family: "Crazyfont";
+        src: url('1.ttf');
+    }
+    
